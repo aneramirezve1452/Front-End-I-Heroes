@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+body{
+    position: relative;
+}
+
+.descuento {
+    background-color: #1CD1B0;
+    padding: 0 10px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #00669f;
+    color: white;
+    padding: 20px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    z-index: 99;
+}
+section{
+    text-align: center;
+}
+
+main {
+    position: relative;
+    padding: 30px;
+}
+
+.card{
+    position: relative;
+    left: 39%;
+    border: 1px solid #f3f3f3;
+    width: 350px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 30px 0px;
+}
+
+.img-fondo{
+    position: relative;
+    height: 250px;
+    width: 400px;
+    border-radius: 20px 20px 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+.info{
+    position: relative;
+    height: 250px;
+    width: 400px;
+    background-color: #f3f3f3;
+    padding-top: 80px;
+    border-radius: 20px 20px 0px 0px;
+    box-sizing: inherit;
+   
+}
+
+.reseña {
+    position: relative;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+
+.img-batman {
+    background-image: url(../img/bg-batman.jpg);
+}
+
+.img-mujer-maravilla {
+    background-image: url(../img/bg-wonderw.jpg);
+}
+
+.img-superman {
+    background-image: url(../img/bg-superman.jpg);
+}
+
+
+img{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -40px;
+    left: 140px;
+    z-index: 10;
+}
+
+a{
+    padding: 10px 20px;
+    background-color: #00669F;
+    position: absolute;
+    bottom: 20px;
+    right: 38%;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.fa-heart{
+    padding: 10px;
+    color: red;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    background-color: #00669F;
+    width: 112%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.fa-plus-circle{
+    color: #00669f;
+    font-size: 46px;
+    position: fixed;
+    top: 500px;
+    right: 20px;
+}
+
+
